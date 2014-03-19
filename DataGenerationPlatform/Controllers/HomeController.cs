@@ -10,7 +10,7 @@ namespace DataGenerationPlatform.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
+            ViewBag.Message = "What is Bearable?";
 
             return View();
         }
@@ -25,6 +25,13 @@ namespace DataGenerationPlatform.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public ActionResult Table()
+        {
+            ViewBag.Message = "Your table page.";
 
             return View();
         }
